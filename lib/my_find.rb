@@ -7,4 +7,6 @@ def my_find(collection)
     if item
       return true 
     end
+  end
+  false 
 end
