@@ -3,5 +3,8 @@ require 'pry'
 def my_find(collection)
   i = 0 
   while i < collection.length 
-    yield(collection[i])
+    item = yield(collection[i])
+    if item
+      return true 
+      
 end
