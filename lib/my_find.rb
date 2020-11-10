@@ -6,5 +6,5 @@ def my_find(collection)
     item = yield(collection[i])
     if item
       return true 
-      
+    end
 end
